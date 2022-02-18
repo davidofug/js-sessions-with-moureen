@@ -68,5 +68,21 @@ console.log(typeof is_function_2);
 let is_function_3 = function () { }; //Function value and data type
 console.log(typeof is_function_3);
 
+// Practice
+let number1 = "50"
+let number2 = 100
+
+console.log(number1 > number2) //false
+
+console.log(typeof number1) //String
+console.log(typeof number2) //Number
+console.log(typeof +number1) //Number
+console.log(typeof parseInt(number1)) //Number
+console.log(typeof Number(number1)) //Number. most recommended
+
+
+
+
+
 
 
